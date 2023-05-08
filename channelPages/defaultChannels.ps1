@@ -10,6 +10,8 @@
 		"Nahamsec"                   {$channelID = "UCCZDt7MuC3Hzs6IH4xODLBw"}
 
 		"Zsecurity"                  {$channelID = "UCVPjtOVcnKaSRI8IO3KSetA"}
+		
+		"iamjakoby"                  {$channelID = "UCQUz2mC5Regc63XRWEqD9FA"}		
 
 		Default                      {$channelID = "UCQUz2mC5Regc63XRWEqD9FA"}
 	}
