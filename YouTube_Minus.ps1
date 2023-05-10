@@ -1,4 +1,4 @@
-irm https://github.com/I-Am-Jakoby/Youtube_Minus/blob/main/channelPages/defaultChannels.ps1 | iex
+irm "https://github.com/I-Am-Jakoby/Youtube_Minus/blob/main/channelPages/defaultChannels.ps1" | iex
 
 function Get-ChannelID {
     param (
