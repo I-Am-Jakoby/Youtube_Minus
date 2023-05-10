@@ -1,3 +1,5 @@
+$webpage = "$env:tmp/MustWatchVids.html"
+
 $channels         = @{
     NetworkChuck = "UC9x0AN7BWHpCDHSm9NiJFJQ"
     JohnHammond  = "UCVeW9qkBjo3zosnqUbG7CFw"
@@ -205,8 +207,8 @@ foreach ($videoID in $urlList) {
 </html>
 "@
 
-    Set-Content -Path $env:tmp/MustWatchVids.html -Value $html
-    Start-Process $env:tmp/MustWatchVids.html
+    Set-Content -Path $webpage -Value $html
+    Start-Process $webpage
 }
 
 function watchVideo {
