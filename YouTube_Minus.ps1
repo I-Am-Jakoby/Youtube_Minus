@@ -6,6 +6,7 @@ $channels         = @{
     Nahamsec     = "UCCZDt7MuC3Hzs6IH4xODLBw"
     Zsecurity    = "UCVPjtOVcnKaSRI8IO3KSetA"
     Sasquach     = "UCUoJk48pujh29p8zLsnD5PQ"
+    iamjakoby    = "UCQUz2mC5Regc63XRWEqD9FA"    
 }
 
 
