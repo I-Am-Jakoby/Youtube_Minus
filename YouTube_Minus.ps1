@@ -1,4 +1,4 @@
-$webpage = "$env:tmp/MustWatchVids.html"
+$webpage = "$env:tmp/YouTubeFreemium.html"
 
 $channels         = @{
     NetworkChuck = "UC9x0AN7BWHpCDHSm9NiJFJQ"
