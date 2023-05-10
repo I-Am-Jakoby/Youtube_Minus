@@ -162,7 +162,7 @@ $html = @"
 <body>
 
 	<div style="text-align: center; color: white;">
-	    <h2 class="title">Enjoy Your Ad Free Viewing</h2>
+	    <h2 class="title">Enjoy Your Ad Free Viewing Brought to you by:</h2>
 	    <img src="https://github.com/I-Am-Jakoby/Youtube_Minus/blob/main/Assets/logo-100x.png?raw=true" alt="Description of the image">
 	    <p>Please consider supporting me here:</p>
 	</div>
