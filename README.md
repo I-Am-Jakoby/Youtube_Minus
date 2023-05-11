@@ -28,12 +28,16 @@ watchvideo -url "https://www.youtube.com/watch?v=VJVrzAeH-0I"
 watchvideo -creator iamjakoby
 ```
 
+<img src= https://github.com/I-Am-Jakoby/Youtube_Minus/blob/main/Assets/watchURL.png width="300" alt="C#" />
+
 ---
 
 ## Watch last X amount of videos from specific creator
 ```powershell
 watchVideo -creator NetworkChuck -maxResults 4
 ```
+
+<img src= https://github.com/I-Am-Jakoby/Youtube_Minus/blob/main/Assets/vidx4.png width="300" alt="C#" />
 
 ---
 
@@ -62,6 +66,8 @@ $channels         = @{
 watchVideo -creator all
 ```
 
+<img src= https://github.com/I-Am-Jakoby/Youtube_Minus/blob/main/Assets/allVids.png width="300" alt="C#" />
+
 ---
 
 ## CLI Format
@@ -80,15 +86,7 @@ Getting only videos posted today from a list of creators etc
 newvideo -creator JohnHammond
 ```
 
-```powershell
-ChannelName : John Hammond
-VideoID     : zs86OYea8Wk
-VideoTitle  : Getting Started in Firmware Analysis &amp; IoT Reverse Engineering
-IsLive      : none
-Description : https://j-h.io/bugprove || For blazing-fast automated IoT firmware analysis and zero-day discovery, you
-              can use BugProve FOR ...
-Published   : 5/11/2023 1:00:43 PM
-```
+<img src= https://github.com/I-Am-Jakoby/Youtube_Minus/blob/main/Assets/newVideoSyntax.jpg width="900" alt="C#" />
 
 ---
 
