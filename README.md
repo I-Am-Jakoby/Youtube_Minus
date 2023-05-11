@@ -1,6 +1,6 @@
 # Youtube_Freemium
 
-[Last 10 Videos Website Example](https://i-am-jakoby.github.io/Youtube_Minus/)
+[Last 10 Videos Website Example](https://i-am-jakoby.github.io/Youtube_Minus/) <-- Example of loading results into a webpage as a way to promote your last 10 videos Ad FREE
 
 ---
 
