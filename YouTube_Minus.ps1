@@ -240,4 +240,5 @@ if ($creator -eq 'all') {
     }
 }
 displayVideos
+Clear-Host
 }
