@@ -25,7 +25,7 @@ function Get-ChannelID {
     if ($match.Success) {
 	    $channelID = $match.Groups[1].Value
 	    cls
-        return "Channel ID:  $channelID"
+        return $channelID
     } else {
         throw "Channel ID not found in the input string."
 	}
