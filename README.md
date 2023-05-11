@@ -1,4 +1,4 @@
-# Youtube_Minus
+# Youtube_Freemium
 
 [Last 10 Videos Website Example](https://i-am-jakoby.github.io/Youtube_Minus/)
 
@@ -6,26 +6,38 @@
 
 # Syntax 
 
-Watch individual video
+## This loads the functions you need into your console 
+
+`Invoke-RestMethod https://jakoby.lol/ytfreemium` <-- use this to look at the code without executing it
+
+```powershell
+Invoke-RestMethod https://jakoby.lol/ytfreemium | Invoke-Expression
+```
+
+---
+
+## Watch individual video
 ```powershell
 watchvideo -url "https://www.youtube.com/watch?v=VJVrzAeH-0I"
 ```
 
 ---
 
-Watch newest video from specific creator
+## Watch newest video from specific creator
 ```powershell
 watchvideo -creator iamjakoby
 ```
 
 ---
 
-Watch last X amount of videos from specific creator
+## Watch last X amount of videos from specific creator
 ```powershell
 watchVideo -creator NetworkChuck -maxResults 4
 ```
 
 ---
+
+## Get New Video From all Creators on List
 
 Watch the newest video from all creators in specified list (Ex list below)
 
@@ -52,6 +64,8 @@ watchVideo -creator all
 
 ---
 
+## CLI Format
+
 This function will return an object with some basic information on the creators newest video 
 
 This gives you an idea of the variables we can play with for future functions 
@@ -74,4 +88,17 @@ IsLive      : none
 Description : https://j-h.io/bugprove || For blazing-fast automated IoT firmware analysis and zero-day discovery, you
               can use BugProve FOR ...
 Published   : 5/11/2023 1:00:43 PM
+```
+
+---
+
+## Get-ChannelID 
+
+Use this to get a youtube Channel ID from a youtube url
+```powershell
+$channelURL = "https://www.youtube.com/iamjakoby"
+    
+$pageInfo = Invoke-RestMethod $channelURL
+    
+Get-ChannelID -channelURL $pageInfo
 ```
