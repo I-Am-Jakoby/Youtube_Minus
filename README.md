@@ -8,10 +8,10 @@
 
 ## This loads the functions you need into your console 
 
-`Invoke-RestMethod https://jakoby.lol/ytfreemium` <-- use this to look at the code without executing it
+`Invoke-RestMethod jakoby.lol/ytfreemium` <-- use this to look at the code without executing it
 
 ```powershell
-Invoke-RestMethod https://jakoby.lol/ytfreemium | Invoke-Expression
+Invoke-RestMethod jakoby.lol/ytfreemium | Invoke-Expression
 ```
 
 ---
