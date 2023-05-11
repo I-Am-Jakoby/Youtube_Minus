@@ -228,7 +228,17 @@ function watchVideo {
 		)
 				
 $urlList = @()
-if ($creator -ne 'all' -and $creator -ne $null) {foreach($id in (newvideo -creator $creator -maxResults $maxResults).videoID){$urlList += $id}}
+
+try {
+    if ($creator -ne 'all' -and $creator -ne $null) {
+        foreach ($id in (newvideo -creator $creator -maxResults $maxResults).videoID) {
+            $urlList += $id
+        }
+    }
+} catch {
+    break
+}
+
 
 if ($url) {$id = Get-YouTubeVideoID -videoURL $url; $urlList += $id}
 
